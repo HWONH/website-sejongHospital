@@ -1,0 +1,25 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Malgun Gothic';
+    src: url('../fonts/MalgunGothicRegular.eot');
+    src: url('../fonts/MalgunGothicRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MalgunGothicRegular.woff2') format('woff2'),
+        url('../fonts/MalgunGothicRegular.woff') format('woff'),
+        url('../fonts/MalgunGothicRegular.ttf') format('truetype'),
+        url('../fonts/MalgunGothicRegular.svg#MalgunGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;font-family: 'Malgun Gothic';}
+html, body{margin: 0;padding: 0;}
+header, section, article, aside, nav, main, footer{display: block;}
+header:after, section:after, article:after, aside:after, nav:after, main:after, footer:after{content: "";display: block;clear: both;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0;padding: 0;list-style: none;}
+a{text-decoration: none;}
+.clear{clear: both;}
+button, input{padding: 0;border: none;background: none;font-family: inherit;font-size: inherit;color: inherit;}
+button{cursor: pointer;}
+address{font-style: normal;}
